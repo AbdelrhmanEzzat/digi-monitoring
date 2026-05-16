@@ -322,7 +322,6 @@ Fix: Use `http://prometheus:9090` (container name) — not `localhost:9090`
 
 ---
 
-Or install stress from source:
-bashsudo apt install -y build-essential
-wget https://dl.acm.org/doi/dl/10.1145/3456779 || \
-  sudo apt install -y stress-ng
+
+sudo apt update
+sudo apt install -y stress-ng
